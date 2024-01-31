@@ -21,12 +21,6 @@ let data = [
         'name': 'DSA_ARRAY_1Day_03.mp4',
         'duration': '1:19:02',
     },
-    {
-        'id': 'a4',
-        'title': 'Introduction of Array ',
-        'name': 'https://drive.google.com/file/d/16VJukaLD2th3jtFbSho0-XiLiAI9h0zu/view?usp=drive_link.mp4',
-        'duration': '1:19:02',
-    },
 
 ];
 
