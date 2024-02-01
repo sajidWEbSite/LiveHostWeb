@@ -17,6 +17,8 @@
  <!--==============================================boostrap for whatsApp link ends ================= -->
 
    <link rel="stylesheet" href="style.css">
+   <!-- =======================================================popup css file======================== -->
+   <link rel="stylesheet" href="./css/logn.css">
  
 </head>
 <body>
@@ -45,7 +47,7 @@
     
     <div class="btn">
       <a href="./Html/registration.html" class="blue"> Registeration</a>
-      <a href="./Html/registration.html" class="yellow">   Login    </a>
+      <a href="#" class="yellow" id="button">   Login    </a>
     </div>
 
   </section>
@@ -377,6 +379,30 @@
         <i class="fab fa-linkedin-in"></i>
       </div>
     </div>
+
+
+    <!-- ======================================popup ==================================-->
+     <div class="popup">
+      <div class="popup-content">
+          <img src="./../image/close.png" alt="close" class="close">
+          <img src="./../image/userLogin.png" alt="userLogin" class="login-img">
+          <input type="text" name="" placeholder="User Nme" id="login-inpt">
+          <input type="password" name="" placeholder="User Nme" id="login-inpt">
+          <a href="#" class="button">Login</a>
+      </div>
+     </div>
+  
+  
+     <!-- ==================js======================== -->
+     <script>
+      document.getElementById("button").addEventListener("click", function(){
+          document.querySelector(".popup").style.display="flex";
+      });
+      
+      document.querySelector(".close").addEventListener("click",function(){
+          document.querySelector(".popup").style.display="none"
+      })
+     </script>
 
     <!--============================================whatsApp code ======================= -->
     <a href="https://api.whatsapp.com/send?phone=918227976550&text=Write your message here.." class="floating" target="_blank">
