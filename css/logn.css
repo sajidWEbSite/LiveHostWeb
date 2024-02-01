@@ -1,0 +1,79 @@
+
+
+/* .container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+} */
+.container h1{
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.button{
+    background: #fff;
+    padding: 10px 15px;
+    color: #34495e;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgb(0, 0, 0,0.75);
+    margin-top: 25px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.button:hover{
+    background-color: #34495e;
+    color: #fff;
+}
+
+
+/* popup */
+.popup{
+    /* background-color: rgb(0, 0, 0,0.6); */
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.popup-content{
+    height: 250px;
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+#login-inpt{
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border: 1px solid gray;
+}
+.login-img{
+    height: 60px;
+    width: 60px;
+    float: center;
+    /* margin-right: 50px;
+    margin-top: 5px;
+    */
+}
+.close{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    height: 20px;
+    width: 20px;
+    box-shadow:6px 6px 29px -4px rgb(0, 0, 0,0.75);
+    cursor: pointer;
+}
+

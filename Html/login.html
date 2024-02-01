@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../css/logn.css">
+</head>
+<body>
+   <div class="container">
+    <h1>POPUP LOGIN </h1>
+    <a href="#" class="button" id="button">Login </a>
+   </div> 
+   <div class="popup">
+    <div class="popup-content">
+        <img src="./../image/close.png" alt="close" class="close">
+        <img src="./../image/userLogin.png" alt="userLogin">
+        <input type="text" name="" placeholder="User Nme" id="">
+        <input type="password" name="" placeholder="User Nme" id="">
+        <a href="#" class="button">Login</a>
+    </div>
+   </div>
+
+
+   <!-- ==================js======================== -->
+   <script>
+    document.getElementById("button").addEventListener("click", function(){
+        document.querySelector(".popup").style.display="flex";
+    });
+    
+    document.querySelector(".close").addEventListener("click",function(){
+        document.querySelector(".popup").style.display="none"
+    })
+   </script>
+</body>
+</html>
