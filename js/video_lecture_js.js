@@ -27,6 +27,12 @@ let data = [
         'name': 'DSA_arrray_02.mp4',
         'duration': '30:43',
     },
+    {
+        'id': 'a5',
+        'title': 'Array Accessing ,udating Day 2 ',
+        'name': 'DSA_arrray_02.mp4',
+        'duration': '30:43',
+    },
 ];
 
 data.forEach((video, i) => {
